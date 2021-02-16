@@ -1,0 +1,23 @@
+{
+  "name": "metascrapper-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest tests",
+    "test:coverage": "jest tests --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-metadata-parser": "^1.0.3",
+    "joi": "^17.4.0",
+    "url-metadata": "^2.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "jest": "^26.6.3",
+    "serverless-offline": "^6.8.0",
+    "sinon": "^9.2.4"
+  }
+}
